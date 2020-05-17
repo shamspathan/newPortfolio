@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+unset($_SESSION['error']);
 $need = ['name','email','subject','message'];
 
 foreach($_POST as $key=>$value){
@@ -11,11 +12,13 @@ foreach($_POST as $key=>$value){
 
 foreach($need as $param){
     if(!isset($$param))
-    die("Please talk in proper way!");
-    echo $$param."<br>";
+    $_SESSION['error'] = "Please talk in proper way!";
 }
 
 $content = $name.PHP_EOL.$subject.PHP_EOL.$message;
-$fp = fopen($_SERVER['DOCUMENT_ROOT'] . "/".$email.".txt","wb");
+$fp = fopen($_SERVER['DOCUMENT_ROOT'] . "/kothabarta/".$email.".txt","wb");
 fwrite($fp,$content);
 fclose($fp);
+
+
+header("Location:/index.html");
