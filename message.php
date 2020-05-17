@@ -15,12 +15,7 @@ foreach($need as $param){
     echo $$param."<br>";
 }
 
-
-// the message
-$msg = "First line of text\nSecond line of text";
-
-// use wordwrap() if lines are longer than 70 characters
-$msg = wordwrap($msg,70);
-
-// send email
-mail("user.beshi@gmail.com","My subject",$msg);
+$content = $name.PHP_EOL.$subject.PHP_EOL.$message;
+$fp = fopen($_SERVER['DOCUMENT_ROOT'] . "/".$email.".txt","wb");
+fwrite($fp,$content);
+fclose($fp);
