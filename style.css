@@ -286,11 +286,11 @@ img {
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.2); }
 
 .tooltip-inner {
-  background-color: #ff7902;
+  background-color: #0076c4;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.2); }
 
 .tooltip .arrow::before {
-  border-bottom-color: #ff7902; }
+  border-bottom-color: #0076c4; }
 
 .bg-img {
   background-position: center center;
@@ -356,7 +356,7 @@ img {
     font-size: 18px;
     display: block; }
   #scrollUp:hover {
-    background-color: #ff7902;
+    background-color: #0076c4;
     color: #ffffff; }
 
 /* :: 3.7.0 pixel Button */
@@ -364,7 +364,7 @@ img {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #ff7902;
+  background-color: #0076c4;
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -395,7 +395,7 @@ img {
     background-color: #688bfe;
     color: #ffffff; }
     .pixel-btn.btn-2:hover, .pixel-btn.btn-2:focus {
-      background-color: #ff7902;
+      background-color: #0076c4;
       color: #ffffff;
       box-shadow: 0 0 50px rgba(0, 0, 0, 0.15); }
   .pixel-btn.btn-3 {
@@ -405,9 +405,9 @@ img {
     line-height: 44px; }
     .pixel-btn.btn-3:hover, .pixel-btn.btn-3:focus {
       background-color: transparent;
-      color: #ff7902;
+      color: #0076c4;
       box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
-      border: 2px solid #ff7902; }
+      border: 2px solid #0076c4; }
 
 /* :: 4.0 Header Area CSS */
 .header-area {
@@ -451,7 +451,7 @@ img {
         padding: 0 10px;
         color: #ffffff; }
         .header-area .pixel-main-menu .classy-navbar .classynav ul li a:hover, .header-area .pixel-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ff7902; }
+          color: #0076c4; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .pixel-main-menu .classy-navbar .classynav ul li a {
             font-size: 16px;
@@ -538,10 +538,10 @@ img {
           color: #212121;
           border-color: #212121; } }
       .header-area .top-social-info a:hover, .header-area .top-social-info a:focus {
-        border-color: #ff7902;
-        color: #ff7902; }
+        border-color: #23a4f9;
+        color: #23a4f9; }
   .header-area .is-sticky .pixel-main-menu {
-    background-color: #688bfe;
+    background-color: #0076c4;
     box-shadow: 0 7px 40px 0 rgba(0, 0, 0, 0.3); }
 
 .classy-navbar-toggler .navbarToggler span {
@@ -579,7 +579,7 @@ img {
         font-size: 16px; } }
     .hero-area .owl-prev:hover,
     .hero-area .owl-next:hover {
-      color: #ff7902; }
+      color: #0076c4; }
   .hero-area .owl-next {
     left: auto;
     right: 50px; }
@@ -706,7 +706,7 @@ img {
         .top-catagory-area .single-catagory a {
           font-size: 24px; } }
       .top-catagory-area .single-catagory a:hover {
-        color: #ff7902; }
+        color: #0076c4; }
 
 /* :: 9.0 Newsletter Area CSS */
 .nl-area {
@@ -742,7 +742,7 @@ img {
         -o-transition-duration: 500ms;
         transition-duration: 500ms; }
         .nl-area .nl-form form input:focus {
-          border-bottom-color: #ff7902; }
+          border-bottom-color: #0076c4; }
 
 /* :: Portfolio Area CSS */
 .pixel-projects-menu {
@@ -760,12 +760,14 @@ img {
     border: 2px solid transparent; }
     .pixel-projects-menu .btn.active, .pixel-projects-menu .btn:focus {
       box-shadow: none;
-      color: #ff7902;
-      border-color: #ff7902; }
+      color: #0076c4;
+      border-color: #0076c4; }
 
 .single_gallery_item {
   display: inline-block;
   float: left;
+  height:300px;
+  padding: 3em;
   position: relative;
   z-index: 2;
   width: 33.3333334%;
@@ -778,6 +780,7 @@ img {
       width: 100%; } }
   .single_gallery_item img {
     width: 100%;
+    height: 100%;
     -webkit-transition-duration: 2000ms;
     -o-transition-duration: 2000ms;
     transition-duration: 2000ms; }
@@ -789,7 +792,7 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 121, 2, 0.9);
+    background-color: rgba(35, 164, 249, .9);
     opacity: 0;
     visibility: hidden;
     -webkit-transition-duration: 500ms;
@@ -919,10 +922,10 @@ img {
     right: 0;
     z-index: 100;
     padding-bottom: 25px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 121, 2, 0)), to(#ff7902));
-    background-image: -webkit-linear-gradient(top, rgba(255, 121, 2, 0), #ff7902);
-    background-image: -o-linear-gradient(top, rgba(255, 121, 2, 0), #ff7902);
-    background-image: linear-gradient(to bottom, rgba(255, 121, 2, 0), #ff7902);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 121, 2, 0)), to(#0076c4));
+    background-image: -webkit-linear-gradient(top, rgba(255, 121, 2, 0), #0076c4);
+    background-image: -o-linear-gradient(top, rgba(255, 121, 2, 0), #0076c4);
+    background-image: linear-gradient(to bottom, rgba(255, 121, 2, 0), #0076c4);
     opacity: 0;
     visibility: hidden; }
     .single-team-member .hover-text h4 {
@@ -977,7 +980,7 @@ img {
       .testimonial-slides .owl-dots .owl-dot.active {
         width: 12px;
         height: 12px;
-        background-color: #ff7902; }
+        background-color: #0076c4; }
 
 .single-testimonial-slide {
   position: relative;
@@ -1015,7 +1018,7 @@ img {
 .footer-area {
   position: relative;
   z-index: 1;
-  background-color: #688bfe;
+  background-color: #0076c4;
   padding-left: 35px;
   padding-right: 35px; }
   @media only screen and (max-width: 767px) {
@@ -1112,8 +1115,8 @@ img {
             line-height: 26px;
             font-size: 14px; } }
         .footer-area .single-footer-widget .footer-social-info a:hover, .footer-area .single-footer-widget .footer-social-info a:focus {
-          border-color: #ff7902;
-          color: #ff7902; }
+          border-color: #34b3fd;
+          color: #34b3fd; }
   .footer-area .copywrite-area {
     position: relative;
     z-index: 1;
@@ -1235,12 +1238,12 @@ img {
     margin: 0 3px; }
     .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
       color: #ffffff;
-      background-color: #ff7902;
-      border-color: #ff7902; }
+      background-color: #0076c4;
+      border-color: #0076c4; }
   .pagination .page-item.active .page-link {
     color: #ffffff;
-    background-color: #ff7902;
-    border-color: #ff7902; }
+    background-color: #0076c4;
+    border-color: #0076c4; }
 
 /* :: Service Area CSS */
 .single-service-cata {
@@ -1475,7 +1478,7 @@ img {
   .contact-form-area textarea:focus {
     background-color: #f6f6f6;
     box-shadow: none;
-    border-bottom-color: #ff7902; }
+    border-bottom-color: #0076c4; }
 .contact-form-area textarea {
   height: 170px;
   padding-top: 20px;
@@ -1569,7 +1572,7 @@ img {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
-    color: #ff7902; }
+    color: #0076c4; }
     .single-service-area a:hover, .single-service-area a:focus {
       color: #688bfe; }
   .single-service-area:hover img, .single-service-area:focus img {
@@ -1577,7 +1580,7 @@ img {
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
   .single-service-area:hover h5, .single-service-area:focus h5 {
-    color: #ff7902; }
+    color: #0076c4; }
 
 .single-cool-fact {
   position: relative;
@@ -1590,7 +1593,7 @@ img {
   .single-cool-fact .scf-text h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #ff7902;
+    color: #0076c4;
     font-weight: 500; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-cool-fact .scf-text h2 {
@@ -1648,7 +1651,7 @@ img {
       -webkit-transition-duration: 500ms;
       -o-transition-duration: 500ms;
       transition-duration: 500ms;
-      background-color: #ff7902;
+      background-color: #0076c4;
       color: #ffffff; }
 .single-accordion .accordion-content {
   border-top: 0 solid transparent;
@@ -1675,7 +1678,7 @@ img {
     transform: translate(-50%, -50%); }
     .single-skils-area .skills-text span {
       font-size: 48px;
-      color: #ff7902;
+      color: #0076c4;
       font-weight: 600; }
     .single-skils-area .skills-text p {
       margin-bottom: 0;
@@ -1688,7 +1691,7 @@ img {
     border-bottom: none;
     margin-bottom: 15px; }
     .pixel-tabs-content .nav-tabs .nav-link {
-      background-color: #ff7902;
+      background-color: #0076c4;
       padding: 0 20px;
       height: 48px;
       line-height: 50px;
