@@ -21,4 +21,4 @@ fwrite($fp,$content);
 fclose($fp);
 
 
-header("Location:/index.html");
+header("Location:/");
