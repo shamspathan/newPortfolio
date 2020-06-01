@@ -1,3 +1,10 @@
+<?php
+session_start();
+$github   = "https://github.com/shamsPathan";
+$linkedin = "https://www.linkedin.com/in/shamspathan/";
+$facebook = "https://www.facebook.com/shamspathan";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,9 +76,9 @@
 
                                 <!-- Top Social Info -->
                                 <div class="top-social-info ml-5">
-                                    <a target="_blank" href="https://github.com/supathan"><i class="fa fa-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/shamspathan/"><i class="fa fa-linkedin"></i></a>
-                                    <a target="_blank" href="https://www.facebook.com/ssujohn"><i class="fa fa-facebook"></i></a>
+                                    <a target="_blank" href="<?=$github?>"><i class="fa fa-github"></i></a>
+                                    <a target="_blank" href="<?=$linkedin?>"><i class="fa fa-linkedin"></i></a>
+                                    <a target="_blank" href="<?=$facebook?>"><i class="fa fa-facebook"></i></a>
                                 </div>
                             </div>
                             <!-- Nav End -->
@@ -243,9 +250,9 @@
                             <div class="single-footer-widget mb-100">
                                 <h5 class="widget-title">Social</h5>
                                 <div class="footer-social-info">
-                                    <a target="_blank" href="https://github.com/supathan"><i class="fa fa-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/shamspathan/"><i class="fa fa-linkedin"></i></a>
-                                    <a target="_blank" href="https://www.facebook.com/ssujohn"><i class="fa fa-facebook"></i></a>
+                                    <a target="_blank" href="<?=$github?>"><i class="fa fa-github"></i></a>
+                                    <a target="_blank" href="<?=$linkedin?>"><i class="fa fa-linkedin"></i></a>
+                                    <a target="_blank" href="<?=$facebook?>"><i class="fa fa-facebook"></i></a>
                                 </div>
                             </div>
                         </div>
