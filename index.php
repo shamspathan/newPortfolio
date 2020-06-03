@@ -141,6 +141,12 @@ $facebook = "https://www.facebook.com/shamspathan";
                     <div class="hover-text">
                         <a href="/img/bg-img/7.jpg" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Raw PHP, JS Medical Store</h4>
+                        <h6>
+                        >> <a target="_blank" href="https://github.com/shamsPathan/raw-shop">Codes Sample</a> <<
+                        </h6>
+                        <h6>
+                        >> <a target="_blank" href="https://www.medicalshopbd.com/">Live</a> <<
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -150,6 +156,9 @@ $facebook = "https://www.facebook.com/shamspathan";
                     <div class="hover-text">
                         <a href="/img/bg-img/learn.jpg" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Laravel & Vue Learning Platform</h4>
+                        <h6>
+                        >> <a target="_blank" href="https://github.com/shamsPathan/vueEcomControllers">Codes Sample</a> <<
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -161,6 +170,12 @@ $facebook = "https://www.facebook.com/shamspathan";
                     <div class="hover-text">
                         <a href="/img/bg-img/5.jpg" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Vanilla JS Music App</h4>
+                        <h6>
+                        >> <a target="_blank" href="https://github.com/shamsPathan/music">Codes Sample</a> <<
+                        </h6>
+                        <h6>
+                        >> <a target="_blank" href="https://shamspathan.github.io/music/">Live</a> <<
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -172,6 +187,8 @@ $facebook = "https://www.facebook.com/shamspathan";
                     <div class="hover-text">
                         <a href="/img/bg-img/6.jpg" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
                         <h4>Design Ecommerce</h4>
+                        >> <a target="_blank" href="#">Live</a> <<
+                        </h6>
                     </div>
                 </div>
             </div>
