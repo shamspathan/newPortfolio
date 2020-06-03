@@ -67,11 +67,11 @@ $facebook = "https://www.facebook.com/shamspathan";
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Projects</a></li>
-                                    <li><a href="#">Skills</a></li>
-                                    <li><a href="#">Blogs</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a target="_blank" href="/shamsPathanRESUME.pdf">RESUME</a></li>
+                                    <!-- <li><a href="#">Blogs</a></li> -->
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
 
                                 <!-- Top Social Info -->
@@ -95,7 +95,7 @@ $facebook = "https://www.facebook.com/shamspathan";
     <!-- ##### Hero Area End ##### -->
 
     <!-- ##### Top Catagory Area Start ##### -->
-    <div class="top-catagory-area d-flex flex-wrap">
+    <div class="top-catagory-area d-flex flex-wrap" id="home">
         <!-- Single Catagory -->
         <div class="single-catagory bg-img d-flex align-items-center justify-content-center jarallax" style="background-image: url(/img/bg-img/3.jpg);">
             <a href="#">FullStack</a>
@@ -109,7 +109,7 @@ $facebook = "https://www.facebook.com/shamspathan";
 
 
     <!-- ##### Portfolio Area Start ###### -->
-    <div class="pixel-portfolio-area section-padding-100-0">
+    <div class="pixel-portfolio-area section-padding-100-0" id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -198,7 +198,7 @@ $facebook = "https://www.facebook.com/shamspathan";
     <!-- ##### Portfolio Area End ###### -->
 
     <!-- ##### Contact Area Start #####-->
-    <section class="contact-area section-padding-100">
+    <section class="contact-area section-padding-100" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-12">
