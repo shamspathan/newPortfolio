@@ -150,7 +150,7 @@ $facebook = "https://www.facebook.com/shamspathan";
                     </div>
                 </div>
             </div>
-            <div class="single_gallery_item web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="single_gallery_item web visual wow fadeInUp" data-wow-delay="0.2s">
                 <img src="/img/bg-img/learn.jpg" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -163,7 +163,7 @@ $facebook = "https://www.facebook.com/shamspathan";
                 </div>
             </div>
 
-            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.6s">
+            <div class="single_gallery_item web visual wow fadeInUp" data-wow-delay="0.6s">
                 <img src="/img/bg-img/adams.jpg" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -175,7 +175,7 @@ $facebook = "https://www.facebook.com/shamspathan";
                 </div>
             </div>
             
-            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.6s">
+            <div class="single_gallery_item web visual wow fadeInUp" data-wow-delay="0.6s">
                 <img src="/img/bg-img/pharmacy.png" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
@@ -206,7 +206,7 @@ $facebook = "https://www.facebook.com/shamspathan";
             </div>
 
             <!-- Single gallery Item -->
-            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.6s">
+            <div class="single_gallery_item web visual wow fadeInUp" data-wow-delay="0.6s">
                 <img src="/img/bg-img/6.jpg" alt="">
                 <div class="hover-content text-center d-flex align-items-center justify-content-center">
                     <div class="hover-text">
