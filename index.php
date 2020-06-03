@@ -163,6 +163,31 @@ $facebook = "https://www.facebook.com/shamspathan";
                 </div>
             </div>
 
+            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.6s">
+                <img src="/img/bg-img/adams.jpg" alt="">
+                <div class="hover-content text-center d-flex align-items-center justify-content-center">
+                    <div class="hover-text">
+                        <a href="/img/bg-img/adams.jpg" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <h4>Laravel Ecommerce</h4>
+                        >> <a target="_blank" href="https://www.youradamsbd.com/">Live</a> <<
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="single_gallery_item visual wow fadeInUp" data-wow-delay="0.6s">
+                <img src="/img/bg-img/pharmacy.png" alt="">
+                <div class="hover-content text-center d-flex align-items-center justify-content-center">
+                    <div class="hover-text">
+                        <a href="/img/bg-img/pharmacy.png" class="zoom-img"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <h4>Pharmacy Store in LARAVEL</h4>
+                        >> <a target="_blank" href="https://www.livepharmacy.com/">Live</a> <<
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            
+
             <!-- Single gallery Item -->
             <div class="single_gallery_item add wow fadeInUp" data-wow-delay="0.4s">
                 <img src="/img/bg-img/5.jpg" alt="">
@@ -192,6 +217,7 @@ $facebook = "https://www.facebook.com/shamspathan";
                     </div>
                 </div>
             </div>
+           
 
         </div>
     </div>
