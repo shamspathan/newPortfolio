@@ -1,0 +1,110 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=1in,tmargin=.5in]{geometry}
+\usepackage{multicol}
+
+
+\titleformat{\section}
+{\huge\bfseries\lowercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\Large}
+{}
+{5px}
+{}
+
+\titleformat{\chapter}
+{\bfseries}
+{}
+{5px}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{1em}
+{}[---]
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries\theauthor}
+
+\vspace{.25em}
+
+\email -- \website
+\end{center}
+
+}
+
+
+\begin{document}
+\title{R\'esum\'e}
+\author{Shams Pathan}
+\newcommand{\email}{mail@supathan.me}
+\newcommand{\website}{https://supathan.me}
+\maketitle
+
+\section{technical skills}
+
+% Languages
+
+\begin{multicols}{3}
+
+\chapter{ Programming} \centering
+
+C, C++
+\break
+
+\chapter{Scripting}\centering
+
+PHP, Javascript, Shell, Python
+\break
+
+\chapter{Markup}\centering
+
+HTML5, CSS,  XML, {\LaTeX}
+\break
+\end{multicols}
+% Methology
+
+\subsubsection{Backend}
+Core PHP, Laravel, Codeigniter, Composer, MySql, Caching(File, Redis), Exploits
+\subsubsection{Frontend}
+VueJS, Bootstrap, JQuery, Ajax, Fetch API, SASS, WebPack, NPM
+\subsubsection{Mixed}
+MVC, OOP, Design Patterns, Data Structure, KISS, Restfull API, JSON, Security
+\subsubsection{DebOps}
+
+HTTP, SSL, Nginx, Apache, DNS, FTP, SSH, Bash, Linux(Debian), Git, Github, VPS
+
+\section{Key skills}
+\subsubsection{Communication}
+Good command over English. Can read and write any Cyrillic script. Good understanding on hindi (listening, speaking). Like to deliver bengali in proper way.
+\subsubsection{Problem-Solving Ability}
+I'm mostly a self learner and like to solve problems by splitting large complex goals into small and simpler ones, thinking parallel, re-using existing solutions, thinking in terms of data flows.
+\subsubsection{Team Player}
+I think my respectfulness, ability of understanding own role, collaborative mindset, accountability, flexibility, positive attitude make me a team player too.
+\subsubsection{Passion for Coding}
+Love to code and grow big. Like to try new things. Love to spend lazy times by learning with online resources or practicing on online places such as Hackerrank, Codewars, TryHackme etc.
+
+\section{work experience}
+\subsubsection{Smart Software Ltd.}
+Laravel and VueJs Developer (E-commerce, 2019-)
+\subsubsection{Xubisoft Ltd.}
+Backend Developer (Intern, 6 months)
+\subsubsection{Freelancer.com}
+Bugfix (Raw PHP, Laravel)
+\subsubsection{Local Client}
+Successfully made some projects for some local clients in bangladesh including E-commerce, SPA, Blog etc. and made them happy.
+\subsubsection{Opensource Contributions}
+Willingly  making continuous contributions to opensource projects such as Laracom(Laravel FREE E-Commerce Software). Helping them to fix bug and learning many new things.
+\section{education}
+\subsubsection{Diploma in CSE}
+Sylhet Polytechnic Institute
+
+\end{document}
