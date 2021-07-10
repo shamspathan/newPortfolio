@@ -69,6 +69,11 @@ inputs:
   proxy_use_insecure_cipher:
     description: 'include more ciphers with use_insecure_cipher'
     default: false
+runs:
+  using: "composite"
+  steps:
+    - run: echo Hello .
+      shell: bash
 
 branding:
   icon: 'copy'
