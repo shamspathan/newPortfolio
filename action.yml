@@ -72,7 +72,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: echo Hello .
+    - run: ls
       shell: bash
 
 branding:
